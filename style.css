@@ -1,0 +1,138 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 15rem;
+    
+}
+.container .content{
+    width: 50rem;
+    height: 40rem;
+    background-color: #fff;
+    margin: auto;
+    border-radius: .5rem;
+    display: flex;
+}
+.container .content .left{
+    flex: 1 1 50%;
+    overflow: hidden;
+}
+.container .content .left img{
+    width: 25rem;
+    height: 100%;
+    border-radius: .5rem 0 0 .5rem;
+}
+.container .content .right{
+    padding-top: 2rem;
+    padding-right: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+}
+.container .content .right h6{
+    font-size: 1rem;
+    /* margin-left: -6rem; */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: .5rem;
+    color: hsl(228, 12%, 48%);
+
+}
+.container .content .right .head{
+    /* margin-left: -6rem; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+}
+
+.container .content .right .cont{
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+    padding: 0;
+    border: none;
+
+}
+.container .content .right .main{
+    color: rgb(97, 224, 97);
+    font-size: 2rem;
+    font-weight: 700;
+    /* margin-left: -6rem; */
+    margin-top: 1.5rem;
+}
+
+.container .content .right .main .throw{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 1.2rem;
+    margin-left: .4rem;
+}
+button{
+    background-color: rgba(23, 146, 23, 0.726);
+    color: #fff;
+    width: 100%;
+    height: 3.5rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    border: none;
+}
+button .icon{
+    margin-right: 1rem;
+}
+button:hover{
+    background-color:rgba(12, 37, 12, 0.726) ;
+}
+@media(max-width:375px){
+    .container{
+        width: 37.5rem;
+        height: 100vh;
+        background-color: hsl(30, 38%, 92%);
+}
+.container .content{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+   margin-top: -13rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.container .content .left{
+    
+    
+}
+.container .content .left img{
+    width: 90%;
+    height: 90%;
+    border-radius:.5rem;
+    margin-top: .2rem;
+    margin-left: 1rem;
+}
+.container .content .right{
+    padding-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+}
+
+
+}
